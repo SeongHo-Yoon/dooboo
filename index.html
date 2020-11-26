@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to DooBoo Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>110%</span>
+        <i class="fas fa-battery-full"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">두부톡에 오신걸 환영합니다.</h1>
+      <p class="welcome-header__text">
+        두부톡 이용을위해 이메일이나 핸드폰번호로 로그인해주세요.
+      </p>
+    </header>
+
+    <form action="friends.html" method="get" id="login-from">
+      <input
+        name="username"
+        type="text"
+        placeholder="이메일 및 전화번호를 입력하세요"
+      />
+      <input
+        name="password"
+        type="password"
+        placeholder="비밀번호를 입력하세요"
+      />
+      <input type="submit" value="로그인" />
+      <a href="#">아이디ㆍ비밀번호찾기</a>
+    </form>
+
+    <div id="no-mobile">
+      <span>화면사이즈가 너무 커요 ㅠ.ㅠ</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/b11427ba65.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
