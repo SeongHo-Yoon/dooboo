@@ -23,6 +23,10 @@
   bottom: 25px;
 }
 
+.screen-header__badge_father {
+  position: relative;
+}
+
 .screen-header__badge {
   background-color: tomato;
   width: 5px;
@@ -30,7 +34,8 @@
   border-radius: 2.5px;
   display: flex;
   position: absolute;
-  font-weight: 600;
-  right: 40px;
-  top: 50px;
+  justify-content: center;
+  align-items: center;
+  top: -8px;
+  left: -5px;
 }
